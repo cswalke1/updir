@@ -28,3 +28,21 @@ usage:
 
 -*NOTICE*-  clears the following environment variables: tmp_re, tmp_amount, tmp_search, tmp_cur, tmp_dirs, OLD_IFS     usually no problem at all , Will make these local in a future version.  Sorry not that saavy with shell scripting atm.
 ```
+
+# examples
+```
+example:
+             cd /home/craig/dir/dir/spec/6/7/7/7/special/5/4/3/2/1
+             updir 1
+             pwd        output: /home/craig/dir/dir/spec/6/7/7/7/special/5/4/3/2
+             updir 2
+             pwd        output: /home/craig/dir/dir/spec/6/7/7/7/special/5/4
+             updir spec
+             pwd        output: /home/craig/dir/dir/spec/6/7/7/7/special
+             updir -s 7
+             pwd        output: /home/craig/dir/dir/spec/6/7/7/7
+             updir -s 7 2
+             pwd        output: /home/craig/dir/dir/spec/6/7/
+             updir dir 2
+             pwd        output: /home/craig/dir
+```
