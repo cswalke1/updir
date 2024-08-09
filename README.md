@@ -5,7 +5,11 @@ A tool to navigate linux directories up-the-chain from the command line
 
 Put the .updir.sh file in your home directory 
 and add to your .bashrc file:
-`. .updir.sh`
+```
+. .updir.sh
+#or
+source .updir.sh
+```
 
 # help
 
