@@ -12,7 +12,7 @@ source .updir.sh
 ```
 
 # help
-
+```
     updir - go up parent directories
 usage:
     updir [-r] <#>                will go up # directories
@@ -27,3 +27,4 @@ usage:
     tab-completion works with this command
 
 -*NOTICE*-  clears the following environment variables: tmp_re, tmp_amount, tmp_search, tmp_cur, tmp_dirs, OLD_IFS     usually no problem at all , Will make these local in a future version.  Sorry not that saavy with shell scripting atm.
+```
